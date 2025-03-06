@@ -15,7 +15,7 @@ export default function Home() {
     {
       src: "/IMG_7459.jpg",
       alt: "Editorial hairstyling work",
-      size: "medium" as const,
+      size: "small" as const,
       orientation: "portrait" as const,
     },
     {
