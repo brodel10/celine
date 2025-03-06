@@ -24,28 +24,14 @@ export default function Navigation() {
       </div>
 
       {isMenuOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-95 flex items-center justify-center">
-          <div className="flex flex-col space-y-8 text-center">
+        <div className="fixed position-relative inset-0 w-full bg-black bg-opacity-95 flex items-center justify-center">
+          <div className="flex w-full h-full pt-12 flex-col space-y-8 text-center">
             <Link
               href="/"
               className="text-white hover:text-gray-300 text-2xl tracking-wider"
               onClick={() => setIsMenuOpen(false)}
             >
               HOME
-            </Link>
-            <Link
-              href="/editorial"
-              className="text-white hover:text-gray-300 text-2xl tracking-wider"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              EDITORIAL
-            </Link>
-            <Link
-              href="/commercial"
-              className="text-white hover:text-gray-300 text-2xl tracking-wider"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              COMMERCIAL
             </Link>
             <Link
               href="/contact"
