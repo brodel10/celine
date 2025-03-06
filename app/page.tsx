@@ -94,7 +94,7 @@ export default function Home() {
           className="text-center transition-transform duration-1000 ease-out px-4"
           style={{
             transform: `translateX(${-scrollPosition * 0.1}px)`,
-            opacity: Math.max(0, 1 - scrollPosition * 0.001),
+            opacity: Math.max(0, 1 - scrollPosition * 0.002),
           }}
         >
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light text-gray-800 tracking-wide mb-2">
@@ -149,6 +149,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* <div className="md:hidden fixed bottom-5 right-5 opacity-75 animate-[bounce_4s_infinite]">
+        {"scroll ->"}
+      </div> */}
     </main>
   );
 }
