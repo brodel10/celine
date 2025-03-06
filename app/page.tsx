@@ -140,18 +140,6 @@ export default function Home() {
             </h2>
             <div className="flex flex-col gap-4">
               <Link
-                href="/editorial"
-                className="flex items-center gap-2 text-base sm:text-lg text-gray-700 hover:text-gray-900 transition-colors"
-              >
-                Editorial Work <ArrowRight size={16} />
-              </Link>
-              <Link
-                href="/commercial"
-                className="flex items-center gap-2 text-base sm:text-lg text-gray-700 hover:text-gray-900 transition-colors"
-              >
-                Commercial Projects <ArrowRight size={16} />
-              </Link>
-              <Link
                 href="/contact"
                 className="flex items-center gap-2 text-base sm:text-lg text-gray-700 hover:text-gray-900 transition-colors"
               >
